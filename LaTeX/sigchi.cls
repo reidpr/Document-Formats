@@ -1438,11 +1438,11 @@
 \setcounter{enumi}{1}
 \def\thebibliography#1{%
 %% Comment this to have blue DOI links.
-\makeatletter
-\def\url@leostyle{% 
-\@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{\color{black}\small\bf\ttfamily}}}
-\makeatother
-\urlstyle{leo}
+%\makeatletter
+%\def\url@leostyle{% 
+%\@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{\color{black}\small\bf\ttfamily}}}
+%\makeatother
+%\urlstyle{leo}
 %%
     \section{%
        {References}
@@ -1579,8 +1579,8 @@
 \def\isbn#1{\global\acmcopyr={#1}}
 \isbn{978-1-4503-2138-9}
 
-\RequirePackage{url}
-\urlstyle{rm}
+%\RequirePackage{url}
+%\urlstyle{rm}
 \def\doi#1{\def\@doi{#1}}
 \doi{10.1145/1235}
 \def\printdoi#1{\url{#1}}
