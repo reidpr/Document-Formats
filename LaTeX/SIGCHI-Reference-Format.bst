@@ -2468,7 +2468,6 @@ FUNCTION { article }
   if$
 
   author format.no.key output       % added
-  output.year.check                 % added
   new.block
   format.articletitle "title" output.check
   new.block
@@ -2712,7 +2711,6 @@ FUNCTION { misc }
   output.bibitem
   format.authors output
   author format.key output            % added
-  output.year.check                   % added
   title howpublished new.block.checkb
   format.title output
   new.block
