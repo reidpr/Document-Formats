@@ -1127,7 +1127,7 @@ FUNCTION { format.names }
                 { "," * }
                 'skip$
               if$
-              t "{\sc others}" =
+              t "{others}" =
                 { " {et~al\mbox{.}}" * } % jrh: avoid spacing problems
                 { " {and} " * t * } % from Chicago Manual of Style
               if$
