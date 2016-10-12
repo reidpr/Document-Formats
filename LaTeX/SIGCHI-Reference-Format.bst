@@ -2839,7 +2839,7 @@ FUNCTION { techreport }
 {
   output.bibitem
   format.authors "author" output.check
-  author format.key output             % added
+  author format.no.key output             % added
   output.year.check                    % added
   new.block
   format.btitle "title" output.check
