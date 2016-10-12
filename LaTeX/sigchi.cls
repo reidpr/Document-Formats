@@ -97,7 +97,7 @@
 \def\filedate{March 21, 2015}
 \def\docdate {\filedate}
 % Packages
-\usepackage{epsfig}
+%\usepackage{epsfig}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -955,7 +955,6 @@
 \def\ftype@copyrightbox{8}
 \def\@copyrightspace{
 \@float{copyrightbox}[b]
-\begin{center}
 \setlength{\unitlength}{1pc}
 \ifnum\ACM@basesize=9
 \begin{picture}(20,6) %Space for copyright notice
@@ -967,7 +966,6 @@
 \put(0,-0.95){\crnotice{\@toappear}}
 \end{picture}
 \fi
-\end{center}
 \end@float}
 
 \def\@toappear{} % Default setting blank - commands below change this.
