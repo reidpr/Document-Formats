@@ -3282,7 +3282,8 @@ FUNCTION { begin.bib }
     'skip$
     { preamble$ writeln }
   if$
-  "\begin{thebibliography}{00}" writeln
+  "\providecommand{\bibdigitwidth}{00}" writeln
+  "\begin{thebibliography}{\bibdigitwidth}" writeln
   ""                                                                         writeln
   "%%% ====================================================================" writeln
   "%%% NOTE TO THE USER: you can override these defaults by providing"       writeln
