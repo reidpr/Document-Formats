@@ -325,7 +325,7 @@
 \belowdisplayshortskip 3.6pt plus2pt minus 2pt
 \def\@listi{\leftmargin\leftmargini %% Added 22 Dec 87
 \topsep 4pt plus 2pt minus 2pt\parsep 2pt plus 1pt minus 1pt
-\itemsep \parsep}}
+\itemsep 0pt}}
 
 \def\footnotesize{\@setsize\footnotesize{9pt}\ixpt\@ixpt
 \abovedisplayskip 6.4pt plus 2pt minus 4pt%
@@ -334,7 +334,7 @@
 \belowdisplayshortskip 2.7pt plus 1pt minus 2pt
 \def\@listi{\leftmargin\leftmargini %% Added 22 Dec 87
 \topsep 3pt plus 1pt minus 1pt\parsep 2pt plus 1pt minus 1pt
-\itemsep \parsep}}
+\itemsep 0pt}}
 
 \newcount\aucount
 \newcount\originalaucount
@@ -504,7 +504,7 @@
 \def\@listI{\leftmargin\leftmargini \parsep 3.6pt plus 2pt minus 1pt%
 %\topsep 7.2pt plus 2pt minus 4pt%
 \topsep 0pt%                        % 00-09-07 job
-\itemsep 3.6pt plus 2pt minus 1pt}
+\itemsep 0pt}
 
 \let\@listi\@listI
 \@listi
@@ -513,13 +513,13 @@
    \labelwidth\leftmarginii\advance\labelwidth-\labelsep
    \topsep 3.6pt plus 2pt minus 1pt
    \parsep 1.8pt plus 0.9pt minus 0.9pt
-   \itemsep \parsep}
+   \itemsep 0pt}
 
 \def\@listiii{\leftmargin\leftmarginiii
     \labelwidth\leftmarginiii\advance\labelwidth-\labelsep
     \topsep 1.8pt plus 0.9pt minus 0.9pt
     \parsep \z@ \partopsep 1pt plus 0pt minus 1pt
-    \itemsep \topsep}
+    \itemsep 0pt}
 
 \def\@listiv{\leftmargin\leftmarginiv
      \labelwidth\leftmarginiv\advance\labelwidth-\labelsep}
@@ -1456,7 +1456,7 @@
         \itemindent -\bibindent
         \listparindent \itemindent
         \usecounter{enumi}
-        \itemsep\bibsep% [jdf] standard spacing between references
+        \itemsep 0pt% [jdf] standard spacing between references
     }%
     \let\newblock\@empty
     \raggedright  %% 7 JAN 2000 gkmt
